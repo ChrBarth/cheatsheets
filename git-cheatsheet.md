@@ -10,9 +10,9 @@ by ChrBarth
 
   `git status`
 
-  - add a file for upload:
+  - add file[s] for upload:
 
-  `git add [file]`
+  `git add [file] [file] ...`
 
   - send update:
 
