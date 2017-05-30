@@ -25,6 +25,6 @@ by ChrBarth
 
   `git pull`
 
-  (add and commit stay the same)
+  (*add* and *commit* commands stay the same)
 
 
