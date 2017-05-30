@@ -4,7 +4,7 @@ by ChrBarth
 
   - clone via ssh:
 
-  `git clone git@github.com:*[user]*/*[repository]*.git`
+  `git clone git@github.com:[user]/[repository].git`
 
   - check for changes:
 
@@ -12,7 +12,7 @@ by ChrBarth
 
   - add a file for upload:
 
-  `git add *[file]*`
+  `git add [file]`
 
   - send update:
 
