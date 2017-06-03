@@ -4,6 +4,9 @@ by ChrBarth
 
   - clone via ssh:
 
+  `ssh-add`
+  to unlock ssh-key (only type password once)
+
   `git clone git@github.com:[user]/[repository].git`
 
   - check for changes:
