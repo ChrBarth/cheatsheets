@@ -1,7 +1,7 @@
 # Unicode characters
 
 in linux:
-&lt;Ctrl&gt; + &lt;Shift&gt; + Hex
+&lt;Ctrl&gt; + &lt;Shift&gt; + u then hex-Value
 
 ## Music symbols:
 
@@ -13,3 +13,9 @@ in linux:
 + 0x266e: ♮
 + 0x266f: ♯
 
+## Arrows:
+
++ 0x2190: ←
++ 0x2191: ↑
++ 0x2192: →
++ 0x2193: ↓
