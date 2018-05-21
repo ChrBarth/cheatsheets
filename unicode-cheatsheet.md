@@ -12,6 +12,20 @@ in linux:
 + 0x266d: ♭
 + 0x266e: ♮
 + 0x266f: ♯
++ 0x1d11c: 𝄜 (not always supported)
++ 0x1d11e: 𝄞 (not always supported)
++ 0x1d122: 𝄢 (not always supported)
++ 0x1d12a: 𝄪 (not always supported)
++ 0x1d134: 𝄴 (not always supported)
++ 0x1d13b: 𝄻 (not always supported)
++ 0x1d13c: 𝄼 (not always supported)
++ 0x1d13d: 𝄽 (not always supported)
++ 0x1d15e: 𝅗𝅥 (not always supported)
++ 0x1d161: 𝅘𝅥𝅯 (not always supported)
++ 0x1d162: 𝅘𝅥𝅰 (not always supported)
++ 0x1d163: 𝅘𝅥𝅱 (not always supported)
++ 0x1d192: 𝆒 (not always supported)
++ 0x1f3b8: 🎸(not always supported)
 
 ## Arrows:
 
