@@ -6,7 +6,9 @@
 
 ## scrolling
 
-```:help index```
+```
+:help index
+```
 
 - `<C-E>` `<C-Y>` line up, down
 - `<C-D>` `<C-U>` half page up, down
@@ -14,7 +16,9 @@
 
 ## windows/splits:
 
-```:help windows```
+```
+:help windows
+```
 
 - `<C-W>` v or `:vsplit [file]` open [file] or current file in new vertical split window
 - `<C-W>` s or `:split [file]` open [file] or current file in new horizontal split window
@@ -23,3 +27,8 @@
 - `<C-W>` r rotate windows downwards/rightwards (<C-W> R upwards/leftwards)
 - `<C-W>` x exchange current window with next one
 - `<C-W>` + - = resize (bigger, smaller, all equal siz
+
+## shell interaction:
+
+- `:r !ls` reads output of _ls_ into current file
+- `:! ls` executes _ls_, waits for key and returns to current file 
