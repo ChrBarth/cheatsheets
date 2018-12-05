@@ -3,6 +3,7 @@
 ## Moving around:
 
 - hjkl = left, down, up, right
+- `{}` paragraph up, down
 
 ## scrolling
 
