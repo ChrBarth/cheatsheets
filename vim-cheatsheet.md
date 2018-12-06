@@ -41,8 +41,8 @@
 - `:rightbelow` or `:leftabove` before split command: open new window right/below or left/above current
 
 ## misc:
-- `gUiw' make word under cursor uppercase
-- `gu2j' make two lines down lowecase
+- `gUiw` make word under cursor uppercase
+- `gu2j` make two lines down lowecase
 
 ## shell interaction:
 
