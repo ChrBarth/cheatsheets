@@ -31,13 +31,13 @@
 :help windows
 ```
 
-- `<C-W>` v or `:vsplit [file]` open [file] or current file in new vertical split window
-- `<C-W>` s or `:split [file]` open [file] or current file in new horizontal split window
-- `<C-W>` n or `:new` create new file in (horizontal) split window (`:vnew` for vertical split)
-- `<C-W>` q quit current window
-- `<C-W>` r rotate windows downwards/rightwards (<C-W> R upwards/leftwards)
-- `<C-W>` x exchange current window with next one
-- `<C-W>` + - = resize (bigger, smaller, all equal size)
+- `<C-W> v` or `:vsplit [file]` open [file] or current file in new vertical split window
+- `<C-W> s` or `:split [file]` open [file] or current file in new horizontal split window
+- `<C-W> n` or `:new` create new file in (horizontal) split window (`:vnew` for vertical split)
+- `<C-W> q` quit current window
+- `<C-W> r` rotate windows downwards/rightwards (<C-W> R upwards/leftwards)
+- `<C-W> x` exchange current window with next one
+- `<C-W> + - =` resize (bigger, smaller, all equal size)
 - `:rightbelow` or `:leftabove` before split command: open new window right/below or left/above current
 
 ## misc:
