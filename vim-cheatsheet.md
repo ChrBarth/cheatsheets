@@ -40,11 +40,31 @@
 - `<C-W> + - =` resize (bigger, smaller, all equal size)
 - `:rightbelow` or `:leftabove` before split command: open new window right/below or left/above current
 
+## folding:
+
+```
+:help folding
+```
+
+- `za` open/close current fold
+- `zM` close all folds
+- `zR` open all folds
+- `[z` move to start of current open fold
+- `]z` move to end of current open fold
+- `zj` move downwards to the start of the next fold
+- `zk` move upwards to the end of the previous fold
+
 ## misc:
 - `gUiw` make word under cursor uppercase
-- `gu2j` make two lines down lowecase
+- `gu2j` make two lines down lowercase
+- `m[a-zA-Z]` sets mark [a-zA-Z]
+- `'[a-z]` jump to mark [a-z] in current file (first non-blank character in line)
+- ```[a-z]`` jump to mark [a-z] in current file
+- `'[A-Z0-9]` jump to mark [A-Z0-9] in file it was set
 
 ## shell interaction:
 
+- `:r file.txt` reads contents of file.txt into current file
 - `:r !ls` reads output of _ls_ into current file
 - `:! ls` executes _ls_, waits for key and returns to current file 
+
