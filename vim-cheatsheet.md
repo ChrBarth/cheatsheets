@@ -61,6 +61,9 @@
 - `'[a-z]` jump to mark [a-z] in current file (first non-blank character in line)
 - ```[a-z]`` jump to mark [a-z] in current file
 - `'[A-Z0-9]` jump to mark [A-Z0-9] in file it was set
+- `:map` list all mappings
+- `:nmap` list all normal mode mappings (vmap/imap for visual/insert mode)
+- `:map <Leader>` list all leader-mappings
 
 ## shell interaction:
 
