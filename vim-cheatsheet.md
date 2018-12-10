@@ -2,7 +2,8 @@
 
 ## Moving around:
 
-- hjkl = left, down, up, right
+- `h`, `j`, `k`, `l` = left, down, up, right
+- `gj`, `gk` line down/up (in wrapped line)
 - `{}` paragraph up, down
 - `w` (`W`) go to beginning of next word (WORD)
 - `b` (`B`) go to beginning of previous word (WORD)
@@ -24,6 +25,9 @@
 - `<C-E>` `<C-Y>` line up, down
 - `<C-D>` `<C-U>` half page up, down
 - `<C-F>` `<C-B>` page up, down
+- `zt` cursor line at top of window (`z<CR>` cursor to first non-blank)
+- `zz` cursor line at center of window (`z.` cursor to first non-blank)
+- `zb` cursor line at bottom of window (`z-` cursor to first non-blank)
 
 ## windows/splits:
 
