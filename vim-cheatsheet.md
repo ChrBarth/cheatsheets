@@ -15,6 +15,10 @@
 - `?[pattern]` search backwards
 - `f[character]` cursor to the next [character] (`F`: search backwards)
 - `t[character]` cursor till before next [character] (`T`: search backwards)
+- `y/pattern` yank until pattern (? for backwards search)
+- `d/pattern` delete until pattern (? for backwards search)
+- `c/pattern` change until pattern (? for backwards search)
+- `*` search forward for word under cursor (`#` for backwards search)
 
 ## scrolling
 
