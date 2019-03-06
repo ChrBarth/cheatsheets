@@ -19,6 +19,7 @@
 - `d/pattern` delete until pattern (? for backwards search)
 - `c/pattern` change until pattern (? for backwards search)
 - `*` search forward for word under cursor (`#` for backwards search)
+- `<C-r> "` insert register in current search
 
 ## scrolling
 
