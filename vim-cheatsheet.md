@@ -20,6 +20,8 @@
 - `c/pattern` change until pattern (? for backwards search)
 - `*` search forward for word under cursor (`#` for backwards search)
 - `<C-r> "` insert register in current search
+- `<C-n>` autocomplete in insert mode (`<C-n>/<C-p>` goes back/forward)
+- `<C-x><C-f>` autocomplete filename in insert mode
 
 ## scrolling
 
