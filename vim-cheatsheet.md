@@ -82,3 +82,9 @@
 - `:r !ls` reads output of _ls_ into current file
 - `:! ls` executes _ls_, waits for key and returns to current file 
 
+## resources:
+
+[Official Vim documentation](https://www.vim.org/docs.php)
+
+[Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
+
