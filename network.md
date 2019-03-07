@@ -5,7 +5,7 @@
 nmap -sP 192.168.0.100/24
 ```
 
-oder:
+or:
 
 ```
 ip neighbor
