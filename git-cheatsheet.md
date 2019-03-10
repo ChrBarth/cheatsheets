@@ -30,4 +30,6 @@ by ChrBarth
 
   (*add* and *commit* commands stay the same)
 
+  - undo all changes on a certain file:
 
+  `git checkout -- <File>`
