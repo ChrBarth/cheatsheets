@@ -88,3 +88,4 @@
 
 [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 
+[help with help (reddit)](https://www.reddit.com/r/vim/wiki/helpwithhelp)
