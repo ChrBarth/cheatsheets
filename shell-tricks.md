@@ -43,3 +43,7 @@ or:
 ## copy every file matching a pattern and changed in the last 2 hours via scp to remote host:
 
 ``` scp $(find . -maxdepth 1 -type f -cmin -120 -name "*pic*.php" -printf "%p ") user@host:/ ```
+
+## convert recursively all filenames from windows-encoding to utf-8:
+
+``` convmv -r -f 'cp1253' -t 'utf8' --notest . ```
