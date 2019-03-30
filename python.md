@@ -5,7 +5,7 @@
 # -*- coding: UTF-8 -*-
 ```
 
-# lambda
+## lambda
 
 ```
 # returns true if number is even:
@@ -21,7 +21,7 @@ def iseven(num):
         return False
 ```
 
-# list comprehension
+## list comprehension
 
 ```
 l = [ 2, 3, 5, 10, 200, -10, 4, -200 , 143 ]
@@ -40,7 +40,7 @@ for x in l:
 print(squares)
 ```
 
-# lists of lists:
+## lists of lists:
 
 ```
 a = [['A','B'],['c','d'],[5,6]]
@@ -54,7 +54,7 @@ Result:
 ['A', 'B', 'c', 'd', 5, 6]
 ```
 
-# enumerate
+## enumerate
 
 ```
 beatles = ['John', 'Paul', 'George', 'Ringo']
@@ -63,7 +63,7 @@ for i, beatle in enumerate(beatles):
     print("%i --> %s" %(i, beatle))
 ```
 
-# counting with dictionaries
+## counting with dictionaries
 
 ```
 l = ['John', 'Paul', 'John', 'George', 'Ringo', 'George', 'Paul', 'Ringo', 'Paul', 'George', 'John']
@@ -82,7 +82,7 @@ Result:
 {'John': 3, 'Paul': 3, 'George': 3, 'Ringo': 2}
 ```
 
-# print list without brackets
+## print list without brackets
 
 ```
 l = ['John', 'Paul', 'George', 'Ringo']
@@ -93,4 +93,29 @@ Result:
 
 ```
 John Paul George Ringo
+```
+
+## read output from shell command:
+
+```
+import subprocess
+p = subprocess.Popen("ls", stdout=subprocess.PIPE)
+# stdout.read() returns bytes, so we decode to utf8:
+p_output = p.stdout.read().decode("UTF-8")
+print(p_output.rstrip("\n"))
+```
+
+Result:
+
+```
+build.sh
+git-cheatsheet.md
+html
+network.md
+pdf
+python.md
+README.md
+shell-tricks.md
+unicode-cheatsheet.md
+vim-cheatsheet.md
 ```
