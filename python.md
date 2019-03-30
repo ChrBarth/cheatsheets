@@ -48,6 +48,12 @@ l = [ c for b in a for c in b ]
 print(l)
 ```
 
+Result:
+
+```
+['A', 'B', 'c', 'd', 5, 6]
+```
+
 # enumerate
 
 ```
@@ -70,10 +76,21 @@ for beatle in l:
 print(d)
 ```
 
+Result:
+
+```
+{'John': 3, 'Paul': 3, 'George': 3, 'Ringo': 2}
+```
+
 # print list without brackets
 
 ```
 l = ['John', 'Paul', 'George', 'Ringo']
 print(*l, sep=" ")
 ```
-# -> John Paul George Ringo
+
+Result:
+
+```
+John Paul George Ringo
+```
