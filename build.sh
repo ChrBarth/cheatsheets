@@ -5,7 +5,7 @@
 for mdfile in *.md
 do
 echo "Converting $mdfile..."
-pandoc -o html/${mdfile%.md}.html $mdfile
+pandoc -H ~/Dokumente/vorlagen/default_css.html -o html/${mdfile%.md}.html $mdfile
 pandoc --latex-engine=xelatex -o pdf/${mdfile%.md}.pdf $mdfile
 # http://www.tldp.org/LDP/abs/html/string-manipulation.html
 # xelatex is needed so pandoc can compile the unicode-cheatsheet

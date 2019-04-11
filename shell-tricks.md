@@ -49,6 +49,6 @@ or:
 ``` convmv -r -f 'cp1253' -t 'utf8' --notest . ```
 
 ## find non-ascii characters in textfile:
-[https://stackoverflow.com/a/13596571)[https://stackoverflow.com/a/13596571]
+[https://stackoverflow.com/a/13596571](https://stackoverflow.com/a/13596571)
 
 ```grep -P '[^\x00-\x7f]' file```
