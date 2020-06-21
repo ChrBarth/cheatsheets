@@ -82,6 +82,12 @@
 - `:r !ls` reads output of _ls_ into current file
 - `:! ls` executes _ls_, waits for key and returns to current file 
 
+## jumps etc.
+
+- `<C-o>` go to previous position in jump list
+- `<C-i>` go to next position in jump list
+- `<C-^>` go to previous opened file
+
 ## resources:
 
 [Official Vim documentation](https://www.vim.org/docs.php)
