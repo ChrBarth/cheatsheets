@@ -61,7 +61,7 @@ sudo iftop -n
 or
 
 ```
-sudo slurm enp2s0
+sudo slurm -i enp2s0
 ```
 
 -------------------------------------------------------------
