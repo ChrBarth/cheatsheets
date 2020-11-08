@@ -75,6 +75,7 @@
 - `:map` list all mappings
 - `:nmap` list all normal mode mappings (vmap/imap for visual/insert mode)
 - `:map <Leader>` list all leader-mappings
+- `<C-v>` in insert-mode then u + unicode in hex: inserts unicode character
 
 ## shell interaction:
 
@@ -95,3 +96,5 @@
 [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_Tips_Wiki)
 
 [help with help (reddit)](https://www.reddit.com/r/vim/wiki/helpwithhelp)
+
+[x-team blog](https://x-team.com/blog/inserting-unicode-characters-in-vim/)
