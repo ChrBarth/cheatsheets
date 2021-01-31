@@ -76,6 +76,7 @@
 - `:nmap` list all normal mode mappings (vmap/imap for visual/insert mode)
 - `:map <Leader>` list all leader-mappings
 - `<C-v>` in insert-mode then u + unicode in hex: inserts unicode character
+- `gf` open filename under cursor (`<C-w>f`: open in new window, `<C-w>gf`: open in new tab)
 
 ## shell interaction:
 
