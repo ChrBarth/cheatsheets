@@ -23,6 +23,15 @@
 - `<C-n>` autocomplete in insert mode (`<C-n>/<C-p>` goes back/forward)
 - `<C-x><C-f>` autocomplete filename in insert mode
 
+### grep:
+- `:grep [pattern] [file(s)]` searches for pattern in file(s)
+
+#### results are stored in the quickfix-list:
+- `:copen` opens the quickfix window
+- `:cn` `:cp` next/previous result
+- `:ccl` close quickfix window
+- `:colder` `:cnewer` go to older/newer quickfixlist
+
 ## scrolling
 
 ```
@@ -89,6 +98,7 @@
 - `<C-o>` go to previous position in jump list
 - `<C-i>` go to next position in jump list
 - `<C-^>` go to previous opened file
+- `gi` (in normal mode) go to position of last insert and switch to insert mode
 
 ## resources:
 
