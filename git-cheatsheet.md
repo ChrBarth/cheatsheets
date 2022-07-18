@@ -60,3 +60,15 @@ by ChrBarth
     - ~/temp/test.git can now be cloned anywhere with:
 
     `git clone user@localhost:~/temp/test.git`
+
+  - rename main branch:
+
+  `git branch -m master main`
+
+  - stop already tracked file from being tracked:
+
+  `git update-index --skip-worktree <filename>`
+
+  - undo (start tracking again):
+
+  `git update-index --no-skip-worktree <filename>`
