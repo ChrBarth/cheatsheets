@@ -60,6 +60,17 @@
 - `<C-W> + - =` resize (bigger, smaller, all equal size)
 - `:rightbelow` or `:leftabove` before split command: open new window right/below or left/above current
 
+## file browsing (netrw/Explore)
+
+```
+:help Explore
+```
+- `:Explore` open File Browser
+- `:Lexplore` open File Browser in a new Split to the left
+- `p` preview of file under cursor in new horizontal split
+- `<C-W>z` Close preview window
+- `P` preview of file in previous used window
+
 ## folding:
 
 ```
