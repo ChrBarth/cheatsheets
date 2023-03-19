@@ -72,3 +72,15 @@ by ChrBarth
   - undo (start tracking again):
 
   `git update-index --no-skip-worktree <filename>`
+
+  - undo last commit but keep all changes:
+
+  `git reset --soft HEAD~1`
+
+  - the same but discard all changes:
+
+  `git reset --hard HEAD~1`
+
+  - edit the last commit (because a file did not get included or got updated after the commit):
+
+  `git commit --amend`
