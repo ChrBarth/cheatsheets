@@ -46,6 +46,11 @@ for i in {0..255}; do printf "\x1b[38;5;${i}mcolour${i}\x1b[0m  "; done
 dpkg -l | awk '/^[hi]i/ { print $2}'
 ```
 
+## show package that provides FILE
+```
+dpkg -S <FILE>
+```
+
 ## show summary of man-page (`apt install tldr`)
 
 ```
@@ -74,3 +79,4 @@ convmv -r -f 'cp1253' -t 'utf8' --notest .
 [https://stackoverflow.com/a/13596571](https://stackoverflow.com/a/13596571)
 
 ```grep -P '[^\x00-\x7f]' file```
+
