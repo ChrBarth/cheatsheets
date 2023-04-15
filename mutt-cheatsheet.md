@@ -24,3 +24,5 @@ set pass2 = "password"
   - show all mails: l~A
   - show all tagged mails: l~T
   - more: [mutt manual section 3.1](http://www.mutt.org/doc/manual/#patterns)
+- delete multiple mails with regex: `D`, then `.*`
+  from [UK Computer Science Department](https://www.cs.uky.edu/docs/users/mutt-cheat-sheet.html)
